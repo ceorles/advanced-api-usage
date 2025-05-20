@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Q3-NAV/static/css/main.8e87d1f3.css",
+    "main.js": "/Q3-NAV/static/js/main.c6dde216.js",
+    "static/js/453.50cb55c0.chunk.js": "/Q3-NAV/static/js/453.50cb55c0.chunk.js",
+    "index.html": "/Q3-NAV/index.html",
+    "main.8e87d1f3.css.map": "/Q3-NAV/static/css/main.8e87d1f3.css.map",
+    "main.c6dde216.js.map": "/Q3-NAV/static/js/main.c6dde216.js.map",
+    "453.50cb55c0.chunk.js.map": "/Q3-NAV/static/js/453.50cb55c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e87d1f3.css",
+    "static/js/main.c6dde216.js"
+  ]
+}
