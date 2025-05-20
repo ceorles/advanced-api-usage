@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fce4ec, #e3f2fd);
+    height: 97vh;
+}
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #607d8b;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.search-bar input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #90caf9;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    width: 60%;
+}
+.search-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #f48fb1;
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.search-bar button:hover {
+    background-color: #ec407a;
+}
+.movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+.movie-table th,
+.movie-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+.movie-table th {
+    background-color: #bbdefb;
+    cursor: pointer;
+}
+.movie-table tbody tr:hover {
+    background-color: #fce4ec;
+}
+.pagination {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.pagination button {
+    padding: 0.5rem 1rem;
+    background-color: #64b5f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.pagination button:disabled {
+    background-color: #b0bec5;
+    cursor: not-allowed;
+}
+.info,
+.error {
+    text-align: center;
+    margin: 1rem 0;
+}
+.error {
+    color: #d32f2f;
+}
